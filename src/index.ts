@@ -1,7 +1,14 @@
-const userName:string = "DainPark"
-, age = 28
-, gender = "Male";
+class Human {
+    public name: string;
+    private age: number;
+    public gender: string;
 
+    constructor(name: string, age:number, gender: string){
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+}
 
 interface ISayHi {
     userName: string;
@@ -21,3 +28,7 @@ const user = {
 sayHi(user);
 
 
+const dain = new Human("dain2", 43, "male");
+console.log(dain.name)
+
+export {};
