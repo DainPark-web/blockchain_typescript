@@ -21,5 +21,12 @@ class Block {
 
 
 
-    
+
 }
+
+const genessisBlock:Block = new Block(0, "20202020202020202", "", "block1234", 123456);
+
+let blockchain: [Block] = [genessisBlock];
+
+
+console.log(blockchain)
