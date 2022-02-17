@@ -1,0 +1,8 @@
+{
+  "name": "blockchain_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DainPark-web/blockchain_typescript.git",
+  "author": "dain <57316771+DainPark-web@users.noreply.github.com>",
+  "license": "MIT"
+}
