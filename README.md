@@ -1,5 +1,7 @@
 # Blockchain - typescript
 
+Das is nur um mein Typescriptkenntnise zu verbessern.
+
 ## watch
 ```bash
 yarn add tsc-watch --dev
